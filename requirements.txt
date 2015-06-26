@@ -1,0 +1,4 @@
+Django
+#libxml2-python
+lxml
+bpython
