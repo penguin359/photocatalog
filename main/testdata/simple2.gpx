@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="GPSTracker" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<metadata>
+	<name>Second test</name>
+	<desc>What will happen?</desc>
+	<author>
+		<name>John Doe</name>
+	</author>
+	<copyright author="Loren M. Lang">
+	<year>2010</year>
+	<license>http://www.gnu.org/licenses/gpl.html</license>
+	</copyright>
+	<time>2010-08-10T21:18:24</time>
+	<keywords>gpst</keywords>
+	<bounds maxlat="90.0" maxlon="180.0" minlat="-90.0" minlon="-180.0"/>
+</metadata>
+<trk>
+	<number>0</number>
+	<type>text/html</type>
+<trkseg>
+</trkseg>
+</trk>
+</gpx>
