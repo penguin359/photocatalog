@@ -12,8 +12,11 @@ class GPX:
 	# TODO Add more GPX metadata
 	def parseGPX(self, root):
 		ns = { 'gpx': 'http://www.topografix.com/GPX/1/1' }
+		# Some GPX generators fail to properly namespace their output
+		# Auto-detect this by looking at the root element and drop
+		# the namespace if appropriate
 		if root.tag == 'gpx':
-			ns = { 'gpx': '' }
+			ns['gpx'] = ''
 		element = root.find('gpx:metadata/gpx:author/gpx:name', ns)
 		if element != None:
 			self.author = element.text
